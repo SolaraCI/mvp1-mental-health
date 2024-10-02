@@ -18,23 +18,56 @@ body {
     border: none;
 }
 
+
+
 .bg-box {
     justify-content: center;
 }
 
-.card {
+.info-container {
     height: 75vh;
     width: 90%;
-    margin: 15px 5%;
+    margin: 15px 5% ;
     padding: 15px;
+    padding-bottom: 5px;
     background-color: rgba(0, 0, 0, .4);
-    align-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    /* flex-direction: column; */
+    /* justify-content: end; */
+    align-content: space-between;
+    
 }
 
-.card p {
-    align-self: flex-end;
+.container-header {
+    display: flex;
+    align-content: center;
 }
+
+.info-container p {
+    margin-bottom: 20px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.img-container span {
+    height: 90px;
+    width: 90px;
+    background-color: antiquewhite;
+}
+
 
 #splash {
+    text-align: center;
+}
+
+h2 {
+    width: 100%;
     text-align: center;
 }
