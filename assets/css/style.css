@@ -24,8 +24,8 @@ body {
     justify-content: center;
 }
 
-.info-container {
-    height: 75vh;
+.info-container, .res-container {
+    height: 65vh;
     width: 90%;
     margin: 15px 5% ;
     padding: 15px;
@@ -40,9 +40,17 @@ body {
     
 }
 
+.res-button-container {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
 .container-header {
     display: flex;
     align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .info-container p {
@@ -60,11 +68,6 @@ body {
     height: 90px;
     width: 90px;
     background-color: antiquewhite;
-}
-
-
-#splash {
-    text-align: center;
 }
 
 h2 {
