@@ -1,0 +1,15 @@
+
+.bg-box {
+    justify-content: center;
+}
+
+.card {
+    height: 75vh;
+    width: 90%;
+    margin: 15px 5%;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+#splash {
+    text-align: center;
+}
